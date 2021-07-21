@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    /* position: absolute; */
+    /* width: 1440px; */
+    padding: 10px 0;
+    height: 750px;
+    background: #FFFFFF;
+    background-image: url(./assets/Background.png);
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+}
+
+#navbar-items-container {
+    width: 40%;
+    align-items: center;
+}
+
+#navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-3 {
+    width: 30%;
+    align-items: center;
+}
+
+.landing-graphic {
+    height: 100%
+}
+
+.landing-graphic-container {
+    height: 100%;
+}
+
+.top .row #medium {
+    padding: 2%;
+}
+
+.caraousel {
+    /* position: absolute; */
+    /* width: 1440px; */
+    background: #FFFFFF;
+}
+
+.slide4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    /* width: 1440px; */
+    height: 672px;
+    background: #FFFFFF;
+}
+
+.testimonials {
+    /* position: absolute; */
+    /* width: 1440px; */
+    height: 896px;
+    background: #D5FAFC;
+}
+
+.testimonials .container-indented .text {
+    position: relative;
+    top: 10%;
+    left: -10%;
+}
+
+.testimonials .container-indented #dialogue {
+    background-color: white;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    /* width: 1440px; */
+    height: 200px;
+    background: #FFFFFF;
+}
+
+.stats .column .row {
+    width: 100%;
+    /* padding: 5%; */
+}
+
+.stats-col {
+    align-items: center;
+    padding: 5px;
+}
+
+.slide5 {
+    background-color: #FFFFFF;
+    margin: auto auto;
+    /* width: 1440px; */
+    height: 500px;
+}
+
+.slide5 .row {
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.slide5 .row .column {
+    width: 50%;
+    margin: 2% 3% 0% 3%;
+}
+
+.footer {
+    /* position: absolute; */
+    /* padding: 50px 0; */
+    /* width: 1440px; */
+    background-color: #0B0D17;
+}
+
+.footer .row {
+    padding: 2% 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.center {
+    text-align: center;
+}
+
+.button {
+    background-color: #8C30F5;
+    border-radius: 9%;
+    width: 20%;
+    height: 15%;
+    color: white;
+}
+
+.container-indented {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.height-100 {
+    height: 100%
+}
+
+.margin-top-bottom {
+    margin: 12% 0;
+}
+
+.margin-right {
+    margin-right: 3%;
+}
+
+.logo {
+    height: 90%;
+    width: 30%;
+}
+
+.right-side {
+    text-align: right;
+}

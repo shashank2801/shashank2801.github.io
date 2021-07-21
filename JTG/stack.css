@@ -1,0 +1,38 @@
+.imagetwo {
+    /* z-index: 1; */
+    margin-left: 20;
+    height: 80%;
+    width: 40%;
+    background-image: url(./assets/BG.png);
+}
+
+.image {
+    /* position: relative; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    width: 10%;
+    height: 25%;
+    /* border: 1px solid red; */
+}
+
+#half-iphone {
+    padding-left: 20%;
+    padding-top: 7%;
+    height: 90%;
+    width: 60%;
+}
+
+.imageStack {
+    background-image: url(./assets/quote.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 10%;
+    width: 10%;
+    position: relative;
+    top: 5%;
+    /* left: 15%; */
+    margin: 0%;
+    /* z-index: 0; */
+}
