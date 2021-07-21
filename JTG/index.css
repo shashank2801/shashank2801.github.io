@@ -38,7 +38,13 @@
     height: 100%
 }
 
-.phone {}
+.phone {
+    max-height: 80%;
+    width: 20%;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
 
 .landing-graphic-container {
     height: 100%;
